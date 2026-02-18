@@ -11,3 +11,5 @@ const urls = [
 	'https://www.google.com/?hl=zh_TW',
 	'https://zh.wikipedia.org/zh-tw/Wikipedia:%E9%A6%96%E9%A1%B5',
 ];
+const index = Math.floor(Math.random() * urls.length);
+window.location.href = urls[index];
